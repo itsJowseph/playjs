@@ -23,13 +23,20 @@ hobbies.forEach((hobby) => {
     console.log(hobby);
 });
 
-// function to summarize the anme, age and hobbies
+// function to summarize the name, age and hobbies
 function summarizedUser (userName, userAge, userhasHobby){
     return(
         "Name is " + userName + ", age is " + userAge + " and the user has hobbies: " + userhasHobby
     );
 }
 console.log(summarizedUser(name , age , hasHobby));
+
+function add(x,y){
+    // let sum = x + y;
+    return x+y;
+}
+// function to add 
+// console.log(add(1,1)); =2
 
 if (hasHobby == true){
     console.log(hobbies);
